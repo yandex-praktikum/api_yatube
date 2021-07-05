@@ -44,7 +44,7 @@ class TestGroupAPI:
         )
 
         assert len(test_data) == groups_cnt, (
-            'Проверьте, что при GET запросе на `/api/v1/group/` возвращается весь список групп'
+            'Проверьте, что при GET запросе на `/api/v1/groups/` возвращается весь список групп'
         )
 
     @pytest.mark.django_db(transaction=True)
